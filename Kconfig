@@ -1,0 +1,19 @@
+mainmenu "MCXN236 System firmware"
+
+source "Kconfig.zephyr"
+
+menu "MCXN236 application"
+
+module = MCXN_APP
+module-str = MCXN236 application
+source "subsys/logging/Kconfig.template.log_config"
+
+config MCXN_LOG_SOURCE_LOCATION
+	bool "Include source file, line and function in application logs"
+	depends on LOG
+	default y
+	help
+	  printLog_* messages include the source basename, line and function.
+	  Disable to reduce message length and source information in logs.
+
+endmenu
