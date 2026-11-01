@@ -20,3 +20,19 @@ Before release, define product requirements, pin dependencies and the toolchain,
 ## Verification tracking
 
 Record build success, flash success and observed runtime behavior separately. For UART tests, retain startup/heartbeat logs together with firmware and hardware revisions.
+
+refer to the documentation:
+https://mcuxpresso.nxp.com/mcuxsdk/latest/boards/MCX/frdmmcxn236/
+https://documentation.espressif.com/en/documentList?eol=false
+ESP-AT User Guide: https://docs.espressif.com/projects/esp-at/en/latest/esp32/
+Hardware Connection: https://docs.espressif.com/projects/esp-at/en/latest/esp32/Get_Started/Hardware_connection.html
+Downloading Guide https://docs.espressif.com/projects/esp-at/en/latest/esp32/Get_Started/Downloading_guide.html
+AT Command Set: https://docs.espressif.com/projects/esp-at/en/latest/esp32/AT_Command_Set/
+docs.zephyrproject:
+FRDM-MCXN236 zephyr: https://docs.zephyrproject.org/latest/boards/nxp/frdm_mcxn236/doc/
+github board FRDM-MCXN236: https://github.com/zephyrproject-rtos/zephyr/tree/main/boards/nxp/frdm_mcxn236
+Sysbuild (System build): https://docs.zephyrproject.org/latest/build/sysbuild/
+Device Management: https://docs.zephyrproject.org/latest/services/device_mgmt/
+Device Firmware Upgrade: https://docs.zephyrproject.org/latest/services/device_mgmt/dfu.html
+MCUboot Documentation: https://docs.mcuboot.com/
+github AT source: https://github.com/zephyrproject-rtos/zephyr/tree/main/drivers/wifi/esp_at
