@@ -1,0 +1,12 @@
+manifest:
+  version: "0.13"
+
+  projects:
+    - name: zephyr
+      url: https://github.com/zephyrproject-rtos/zephyr
+      revision: 5075ddf1460b6a8c658a0d1cbdcdac3d971b661a
+      path: zephyr
+      import: true
+
+  self:
+    path: MCXN236-system
